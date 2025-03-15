@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "name": "simple-youtrack",
+  "title": "Simple YouTrack",
+  "description": "internship task",
+  "icon": "icon.svg",
+  "vendor": {
+    "name": "artem"
+  },
+  "widgets": [
+    {
+      "key": "simple-main-page",
+      "name": "Simple Main Page",
+      "indexPath": "simple-main-page/index.html",
+      "extensionPoint": "MAIN_MENU_ITEM",
+      "iconPath": "simple-main-page/widget-icon.svg",
+      "description": "internship task"
+    }
+  ]
+}
